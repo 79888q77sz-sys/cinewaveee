@@ -1,0 +1,13 @@
+name = "cinewave"
+main = "worker.js"
+compatibility_date = "2026-11-10"
+
+[assets]
+directory = "./site"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cinewave-db"
+database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
